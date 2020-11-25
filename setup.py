@@ -10,7 +10,7 @@ setup(
     license = "BSD",
     keywords = "example tutorial",
     # url = "http://packages.python.org/an_example_pypi_project",
-    packages=['ci_test', 'tests'],
+    packages=['src/ci_test', 'tests'],
     long_description="Imagine a long description",
     classifiers=[
         "Development Status :: 3 - Alpha",
