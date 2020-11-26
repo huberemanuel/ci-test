@@ -43,6 +43,7 @@ jobs:
         run: |
           python setup.py build
           python setup.py install
+          echo $PYTHONPATH
 
       - name: Run tests
         run: pytest
