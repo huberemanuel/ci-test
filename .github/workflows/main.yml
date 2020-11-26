@@ -43,7 +43,7 @@ jobs:
         run: |
           python setup.py build
           python setup.py install
-          pytest
+          python -c "import ci_test"
 
       - name: Run tests
         run: pytest
