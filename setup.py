@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name = "ci_test",
@@ -10,7 +10,7 @@ setup(
     license = "BSD",
     keywords = "example tutorial",
     # url = "http://packages.python.org/an_example_pypi_project",
-    packages=['src/ci_test', 'tests'],
+    packages=find_packages(),
     long_description="Imagine a long description",
     classifiers=[
         "Development Status :: 3 - Alpha",
