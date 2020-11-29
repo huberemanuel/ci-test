@@ -9,7 +9,6 @@ setup(
     description = ("An demonstration of Github Actions + pytest."),
     license = "BSD",
     keywords = "example tutorial",
-    # url = "http://packages.python.org/an_example_pypi_project",
     packages=find_packages(),
     long_description="Imagine a long description",
     classifiers=[
