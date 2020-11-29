@@ -41,8 +41,7 @@ jobs:
 
       - name: Install ci-test package
         run: |
-          ls
-          pip install -e
+          pip install -e .
           python -c "import ci_test"
 
       - name: Run tests
