@@ -10,6 +10,7 @@ setup(
     license = "BSD",
     keywords = "example tutorial",
     packages=find_packages(),
+    package_dir={"": "src"},
     long_description="Imagine a long description",
     classifiers=[
         "Development Status :: 3 - Alpha",
