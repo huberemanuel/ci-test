@@ -41,8 +41,8 @@ jobs:
 
       - name: Install ci-test package
         run: |
-          python setup.py build
-          python setup.py install --user
+          ls
+          pip install -e
           python -c "import ci_test"
 
       - name: Run tests
