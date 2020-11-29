@@ -17,4 +17,7 @@ setup(
         "Topic :: Utilities",
         "License :: OSI Approved :: BSD License",
     ],
+    install_requires=[
+        "pytest>=6.1.0"
+    ]
 )
